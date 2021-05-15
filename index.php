@@ -47,29 +47,30 @@
     <li class="nav-item">
         <a class="nav-link" href="#">Подкасты</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Заметки</a>
+    </li>
 </ul>
 
 <main class="flex-shrink-0">
     <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                        Новое
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Старое</a></li>
-                        <li><a class="dropdown-item" href="#">Избранное</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Рекомендации</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control mr-2" type="search" placeholder="Что-то интересное..." aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Поиск</button>
-            </form>
-        </div>
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Новое
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Старое</a></li>
+                    <li><a class="dropdown-item" href="#">Избранное</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Рекомендации</a></li>
+                </ul>
+            </li>
+        </ul>
+        <form class="d-flex">
+            <input class="form-control" type="search" placeholder="Я ищу..." aria-label="Search">
+            <button class="btn btn-outline-success" style="display: none" type="submit">Поиск</button>
+        </form>
     </nav>
 
     <div class="container main-list">
