@@ -34,19 +34,19 @@
         <a class="nav-link active" id="alllist-tab" data-toggle="pill" href="#alllist" role="tab" aria-controls="pills-home" aria-selected="true">Всё</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="videolist-tab" data-toggle="pill" href="#videolist" role="tab" aria-controls="pills-home" aria-selected="true">Видео</a>
+        <a class="nav-link" id="videolist-tab" data-toggle="pill" href="#videolist" role="tab" aria-controls="pills-home" aria-selected="false">Видео</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="articlelist-tab" data-toggle="pill" href="#articlelist" role="tab" aria-controls="pills-home" aria-selected="true">Статьи</a>
+        <a class="nav-link" id="articlelist-tab" data-toggle="pill" href="#articlelist" role="tab" aria-controls="pills-home" aria-selected="false">Статьи</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="musiclist-tab" data-toggle="pill" href="#musiclist" role="tab" aria-controls="pills-home" aria-selected="true">Музыка</a>
+        <a class="nav-link" id="musiclist-tab" data-toggle="pill" href="#musiclist" role="tab" aria-controls="pills-home" aria-selected="false">Музыка</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="podcastlist-tab" data-toggle="pill" href="#podcastlist" role="tab" aria-controls="pills-home" aria-selected="true">Подкасты</a>
+        <a class="nav-link" id="podcastlist-tab" data-toggle="pill" href="#podcastlist" role="tab" aria-controls="pills-home" aria-selected="false">Подкасты</a>
     </li>
     <li class="nav-item" role="presentation">
-        <a class="nav-link" id="noteslist-tab" data-toggle="pill" href="#noteslist" role="tab" aria-controls="pills-home" aria-selected="true">Заметки</a>
+        <a class="nav-link" id="noteslist-tab" data-toggle="pill" href="#noteslist" role="tab" aria-controls="pills-home" aria-selected="false">Заметки</a>
     </li>
 </ul>
 
@@ -158,7 +158,7 @@
                 </div>
                 <br>
             </div>
-            <div class="tab-pane fade active show" id="musiclist" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade" id="musiclist" role="tabpanel" aria-labelledby="pills-contact-tab">
                 <h5 class="text-center">
                     Пока здесь пусто...
                 </h5>
