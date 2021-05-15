@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #2E44D8;
+    color: #FFFFFF;
+}
+
+main {
+    padding-bottom: 78px;
+    overflow-y: scroll;
+}
+
+.navbar.fixed-bottom {
+    height: 78px;
+}
+
+.navbar.fixed-bottom .btn-group {
+    width: 100%;
+    margin: 0 15px;
+    color: white;
+}
+
+.navbar.fixed-bottom .btn-group button {
+    color: #FFFFFF;
+    padding: 1px;
+}
+
+.navbar.fixed-bottom .btn-group button:active {
+    background-color: #FFFFFF;
+}
+
+.btn.addmark span {
+    font-size: 2em;
+    border: 1px solid #FFFFFF;
+    border-radius: 50% !important;
+
+    height: 1.8em;
+    width: 1.8em;
+    display: inline-block;
+}
+
