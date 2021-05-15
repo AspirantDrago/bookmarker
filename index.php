@@ -25,7 +25,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <h1>Bookmarker</h1>
+    <h2>Bookmarker</h2>
     <img src="icon_android.png" alt="" height="35px">
 </nav>
 
@@ -65,7 +65,7 @@
                 </ul>
             </li>
         </ul>
-        <form class="d-flex">
+        <form class="d-flex" style="max-width: 50%;">
             <input class="form-control" type="search" placeholder="Я ищу..." aria-label="Search">
             <button class="btn btn-outline-success" style="display: none" type="submit">Поиск</button>
         </form>
