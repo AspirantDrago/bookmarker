@@ -158,14 +158,23 @@
                 </div>
                 <br>
             </div>
-            <div class="tab-pane fade" id="musiclist" role="tabpanel" aria-labelledby="pills-contact-tab">
-
+            <div class="tab-pane fade active show" id="musiclist" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <h5 class="text-center">
+                    Пока здесь пусто...
+                </h5>
+                <img src="img/empty.png" alt="Пока здесь пусто" class="w-100">
             </div>
             <div class="tab-pane fade" id="podcastlist" role="tabpanel" aria-labelledby="pills-contact-tab">
-
+                <h5 class="text-center">
+                    Пока здесь пусто...
+                </h5>
+                <img src="img/empty.png" alt="Пока здесь пусто" class="w-100">
             </div>
             <div class="tab-pane fade" id="noteslist" role="tabpanel" aria-labelledby="pills-contact-tab">
-
+                <h5 class="text-center">
+                    Пока здесь пусто...
+                </h5>
+                <img src="img/empty.png" alt="Пока здесь пусто" class="w-100">
             </div>
         </div>
 
