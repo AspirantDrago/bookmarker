@@ -37,3 +37,13 @@ main {
     display: inline-block;
 }
 
+
+
+.nav-tabs {
+    display: inline-flex;
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: none; /*// IE 10+*/
+    overflow: -moz-scrollbars-none;/*// Firefox*/
+    flex-wrap: nowrap;
+}
