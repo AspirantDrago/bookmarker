@@ -22,13 +22,11 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <nav class="navbar navbar-dark sticky-top">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <h1>Bookmarker</h1>
-        <img src="icon_android.png" alt="" height="35px">
-    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <h1>Bookmarker</h1>
+    <img src="icon_android.png" alt="" height="35px">
 </nav>
 
 <ul class="nav nav-tabs">
@@ -54,7 +52,7 @@
 
 <main class="flex-shrink-0">
     <nav class="navbar navbar-light bg-light">
-        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                     Новое
